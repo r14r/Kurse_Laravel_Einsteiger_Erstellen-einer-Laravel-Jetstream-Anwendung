@@ -1,4 +1,4 @@
-![](intro.png)
+![](main.png)
 
 #
 

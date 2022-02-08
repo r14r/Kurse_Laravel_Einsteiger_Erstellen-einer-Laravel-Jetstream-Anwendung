@@ -65,6 +65,13 @@
             <x-jet-input id="email" type="email" class="mt-1 block w-full" wire:model.defer="state.email" />
             <x-jet-input-error for="email" class="mt-2" />
         </div>
+
+        <!-- Custom Field -->
+            <div class="col-span-6 sm:col-span-4">
+            <x-jet-label for="customfield" value="{{ __('Custom Field') }}" />
+            <x-jet-input id="customfield" type="text" class="mt-1 block w-full" wire:model.defer="state.customfield" />
+            <x-jet-input-error for="customfield" class="mt-2" />
+        </div>
     </x-slot>
 
     <x-slot name="actions">

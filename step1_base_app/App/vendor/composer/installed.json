@@ -1565,23 +1565,23 @@
         },
         {
             "name": "laravel/fortify",
-            "version": "v1.10.1",
-            "version_normalized": "1.10.1.0",
+            "version": "v1.10.2",
+            "version_normalized": "1.10.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/fortify.git",
-                "reference": "a85e04a6ce1c704cd88970d6cbbc78b4b1b8ca5f"
+                "reference": "0047871070407e9b2727a2110425419312c009e0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/fortify/zipball/a85e04a6ce1c704cd88970d6cbbc78b4b1b8ca5f",
-                "reference": "a85e04a6ce1c704cd88970d6cbbc78b4b1b8ca5f",
+                "url": "https://api.github.com/repos/laravel/fortify/zipball/0047871070407e9b2727a2110425419312c009e0",
+                "reference": "0047871070407e9b2727a2110425419312c009e0",
                 "shasum": ""
             },
             "require": {
                 "bacon/bacon-qr-code": "^2.0",
                 "ext-json": "*",
-                "illuminate/support": "^8.0|^9.0",
+                "illuminate/support": "^8.82|^9.0",
                 "php": "^7.3|^8.0",
                 "pragmarx/google2fa": "^7.0|^8.0"
             },
@@ -1590,7 +1590,7 @@
                 "orchestra/testbench": "^6.0|^7.0",
                 "phpunit/phpunit": "^9.3"
             },
-            "time": "2022-02-01T16:24:24+00:00",
+            "time": "2022-02-05T18:22:32+00:00",
             "type": "library",
             "extra": {
                 "branch-alias": {
@@ -1631,17 +1631,17 @@
         },
         {
             "name": "laravel/framework",
-            "version": "v9.0.0",
-            "version_normalized": "9.0.0.0",
+            "version": "v9.0.1",
+            "version_normalized": "9.0.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "fbe7ed828819eadabb3cb9f95847a2ffe8846fd6"
+                "reference": "afeb58d019b203ecb1a1c4063a66a029ea6bea63"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/fbe7ed828819eadabb3cb9f95847a2ffe8846fd6",
-                "reference": "fbe7ed828819eadabb3cb9f95847a2ffe8846fd6",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/afeb58d019b203ecb1a1c4063a66a029ea6bea63",
+                "reference": "afeb58d019b203ecb1a1c4063a66a029ea6bea63",
                 "shasum": ""
             },
             "require": {
@@ -1765,7 +1765,7 @@
                 "symfony/postmark-mailer": "Required to enable support for the Postmark mail transport (^6.0).",
                 "symfony/psr-http-message-bridge": "Required to use PSR-7 bridging features (^2.0)."
             },
-            "time": "2022-02-08T15:48:31+00:00",
+            "time": "2022-02-09T15:00:05+00:00",
             "type": "library",
             "extra": {
                 "branch-alias": {
@@ -1813,17 +1813,17 @@
         },
         {
             "name": "laravel/jetstream",
-            "version": "v2.6.4",
-            "version_normalized": "2.6.4.0",
+            "version": "v2.6.5",
+            "version_normalized": "2.6.5.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/jetstream.git",
-                "reference": "6c607ee1db6bdc0238e56429a0800a5c9cdbfb5e"
+                "reference": "49acffbae6ddad87195dedee8868db3c04cde801"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/jetstream/zipball/6c607ee1db6bdc0238e56429a0800a5c9cdbfb5e",
-                "reference": "6c607ee1db6bdc0238e56429a0800a5c9cdbfb5e",
+                "url": "https://api.github.com/repos/laravel/jetstream/zipball/49acffbae6ddad87195dedee8868db3c04cde801",
+                "reference": "49acffbae6ddad87195dedee8868db3c04cde801",
                 "shasum": ""
             },
             "require": {
@@ -1840,7 +1840,7 @@
                 "orchestra/testbench": "^6.0|^7.0",
                 "phpunit/phpunit": "^9.3"
             },
-            "time": "2022-01-27T17:46:11+00:00",
+            "time": "2022-02-08T14:12:45+00:00",
             "type": "library",
             "extra": {
                 "branch-alias": {
@@ -1882,17 +1882,17 @@
         },
         {
             "name": "laravel/sail",
-            "version": "v1.13.1",
-            "version_normalized": "1.13.1.0",
+            "version": "v1.13.2",
+            "version_normalized": "1.13.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/sail.git",
-                "reference": "b9749028732eca8080c26d01cd88a2f3549c2e3e"
+                "reference": "ede5e861549be2c3a8b789cdb34203a5aef5b92a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/sail/zipball/b9749028732eca8080c26d01cd88a2f3549c2e3e",
-                "reference": "b9749028732eca8080c26d01cd88a2f3549c2e3e",
+                "url": "https://api.github.com/repos/laravel/sail/zipball/ede5e861549be2c3a8b789cdb34203a5aef5b92a",
+                "reference": "ede5e861549be2c3a8b789cdb34203a5aef5b92a",
                 "shasum": ""
             },
             "require": {
@@ -1901,7 +1901,7 @@
                 "illuminate/support": "^8.0|^9.0",
                 "php": "^7.3|^8.0"
             },
-            "time": "2022-01-20T15:31:25+00:00",
+            "time": "2022-02-08T14:14:12+00:00",
             "bin": [
                 "bin/sail"
             ],

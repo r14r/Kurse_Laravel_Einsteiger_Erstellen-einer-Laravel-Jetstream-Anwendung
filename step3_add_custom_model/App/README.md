@@ -252,3 +252,60 @@ php artisan make:model Profile
 php artisan make:controller StudentController
 ```
 
+## Add custom Model
+
+```shell
+php artisan make:model -m Post
+Model created successfully.
+Created Migration: 2022_02_10_183923_create_posts_table
+```
+
+```shell
+php artisan make:migration add_status_to_posts_table --table=posts
+Created Migration: 2022_02_10_184100_add_status_to_posts_table
+```
+
+Add Posts table
+
+```php
+    public function up()
+    {
+        Schema::create('posts', function (Blueprint $table) {
+            $table->id();
+            $table->string('title');
+            $table->text('body');
+            $table->timestamps();
+        });
+    }
+
+    public function down()
+    {
+        Schema::dropIfExists('posts');
+    }
+```
+
+Add Status to Posts table
+
+```php
+    public function up()
+    {
+        Schema::table('posts', function (Blueprint $table) {
+            $table->string('slug')->after('title');
+        });
+    }
+
+    public function down()
+    {
+        Schema::table('posts', function (Blueprint $table) {
+            $table->dropColumn('slug');
+        });
+    }
+```
+
+```shell
+php artisan migrate
+Migrating: 2022_02_10_183923_create_posts_table
+Migrated:  2022_02_10_183923_create_posts_table (2.46ms)
+Migrating: 2022_02_10_184100_add_status_to_posts_table
+Migrated:  2022_02_10_184100_add_status_to_posts_table (1.28ms)
+```
